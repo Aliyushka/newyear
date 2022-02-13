@@ -102,8 +102,8 @@ body {
 }
 @media (min-width: 481px) and (max-width: 862px) {
   .content {
-    padding-top: 100px;
     color: white;
+    padding-top: 100px;
   }
 }
 @media (max-width: 480px) {
@@ -112,10 +112,10 @@ body {
   }
   .content .title {
     color: rgb(206, 193, 122);
-    font-size: 40px;
+    font-size: 52px;
   }
   .content .congrats {
-    font-size: 14px;
+    font-size: 16px;
     color: white;
     padding: 0 10px;
   }
@@ -127,6 +127,7 @@ body {
 
   .left-top {
     width: 110px;
+    top: -15px;
   }
   .right-top {
     display: none;
@@ -144,25 +145,26 @@ body {
   }
   .music-main {
     position: absolute;
-    right: 40px;
+    right: 50px;
     top: 50px;
     bottom: 10px;
   }
   .music-title {
     position: absolute;
-    width: 40px;
-    height: 15px;
+    width: 58px;
+    height: 22px;
     display: block;
     font-family: Gilroy;
     font-weight: normal;
     line-height: 12px;
     font-size: 11px;
     color: #FFFFFF;
+    text-align: right;
   }
   .music {
     position: absolute;
-    width: 35px;
-    height: 35px;
+    width: 40px;
+    height: 40px;
     top: 40px;
-    left: 10px;
+    left: 13px;
 }
